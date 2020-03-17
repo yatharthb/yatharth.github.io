@@ -21,7 +21,9 @@
       var map = new Map({
         basemap: "streets-night-vector"
       });
-            
+              </script>  
+
+          <script>  
       function popupContent () {
         return "Confirmed: {Confirmed}<br>Deaths: {Deaths}<br> Recovered: {Recovered} <br><a target=\"_blank\" href=\"http://www.esri.com\">Learn more at www.esri.com</a>";
       }
